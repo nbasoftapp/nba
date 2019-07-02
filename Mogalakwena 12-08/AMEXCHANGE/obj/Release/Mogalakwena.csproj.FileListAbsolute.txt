@@ -1,0 +1,75 @@
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Mogalakwena.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Mogalakwena.pdb
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Antlr3.Runtime.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\AspNet.ScriptManager.jQuery.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\AspNet.ScriptManager.jQuery.UI.Combined.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.AspNet.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.Core.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OAuth.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OpenId.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\EntityFramework.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Microsoft.AspNet.Web.Optimization.WebForms.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Microsoft.ScriptManager.MSAjax.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Microsoft.ScriptManager.WebForms.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\System.Web.Optimization.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\System.Web.Providers.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\WebGrease.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\EntityFramework.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.Core.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OAuth.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OpenId.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\bin\DotNetOpenAuth.AspNet.xml
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\obj\Release\Mogalakwena.dll
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\obj\Release\Mogalakwena.pdb
+C:\Users\Koketso\Desktop\Mogalakwena\Mogalakwena\obj\Release\Mogalakwena.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\Mogalakwena.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\AMEXCHANGE.pdb
+E:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+E:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\Mogalakwena.csprojResolveAssemblyReference.cache
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.dll
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.pdb
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll.config
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Calendar2_Net.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Grid_NET.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Interface.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\Mogalakwena.csprojResolveAssemblyReference.cache
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.dll
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll.config
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\obj\Release\Mogalakwena.csprojResolveAssemblyReference.cache
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\obj\Release\AMEXCHANGE.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\ASPGMaps.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\gmap.net.windowspresentation.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\GMaps.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\EntityFramework.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.AspNet.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\GMap.NET.Core.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.Core.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\ASPGMaps.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\EntityFramework.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.AspNet.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.Core.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.xml

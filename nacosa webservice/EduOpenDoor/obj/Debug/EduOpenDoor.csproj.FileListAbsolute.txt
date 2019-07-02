@@ -1,0 +1,29 @@
+c:\users\david\documents\visual studio 2013\Projects\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll.config
+c:\users\david\documents\visual studio 2013\Projects\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll
+c:\users\david\documents\visual studio 2013\Projects\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.pdb
+c:\users\david\documents\visual studio 2013\Projects\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.dll
+c:\users\david\documents\visual studio 2013\Projects\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.pdb
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll.config
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.pdb
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.dll
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.pdb
+K:\OpenDoor\v1.1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.csprojResolveAssemblyReference.cache
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll.config
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.dll
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\bin\EduOpenDoor.pdb
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.csprojResolveAssemblyReference.cache
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.dll
+K:\OpenDoor\v1.1\V1\EduOpenDoor\EduOpenDoor\obj\Debug\EduOpenDoor.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.dll.config
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.dll
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.dll
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.pdb
+C:\Users\David\Documents\Visual Studio 2013\Projects\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.csprojResolveAssemblyReference.cache
+K:\NACOSA\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.dll.config
+K:\NACOSA\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.dll
+K:\NACOSA\nacosa webservice\EduOpenDoor\bin\EduOpenDoor.pdb
+K:\NACOSA\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.csprojResolveAssemblyReference.cache
+K:\NACOSA\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.dll
+K:\NACOSA\nacosa webservice\EduOpenDoor\obj\Debug\EduOpenDoor.pdb

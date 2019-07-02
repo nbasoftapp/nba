@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="NACOSA" Class="NacosadbDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=ESWSERVER-01\SQLEXPRESS2012;Initial Catalog=NACOSA;Integrated Security=True;Connect Timeout=15;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="surveyConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Province" Member="Provinces">
+    <Type Name="Province">
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvinceName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Province_Region" Member="Regions" ThisKey="ProvinceID" OtherKey="ProvinceID" Type="Region" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Regions" Member="Regions">
+    <Type Name="Region">
+      <Column Name="RegionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RegionName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Province_Region" Member="Province" ThisKey="ProvinceID" OtherKey="ProvinceID" Type="Province" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Assessment" Member="Assessments">
+    <Type Name="Assessment">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LiveWithParents" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Schooling" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CompletedSchool" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="HighestGrade" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Children" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="HowManyChildren" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MaritalStatus" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="regID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.admin" Member="admins">
+    <Type Name="admin">
+      <Column Name="admin_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="surname" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="role" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+      <Column Name="date_created" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="status" Type="System.String" DbType="VarChar(60)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Journey" Member="Journeys">
+    <Type Name="Journey">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="HIVTesting" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="HIVSelfScreening" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="CondomsSTIScreening" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PregnancyTesting" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EmergencyContraception" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="VendingMachines" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PeerEducation" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ComprehensiveSexualityEducation" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IndividualAndGroupSupport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="PrepDemandCreation" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SRHKnowledge" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="MentalHealthSupport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="SupportAccessSocialGrants" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="DignityPacks" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="AcademicSupport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ReturnToSchoolSupport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="ECDVouchers" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="EconomicStrengthening" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="WholeSchoolDevelopment" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="MenDialoguesGenderNorms" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="YouthLeadership" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="regID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Regions" Member="Region1s">
+    <Type Name="Region1">
+      <Column Name="RegionID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProvinceID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RegionName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Roles" Member="Roles">
+    <Type Name="Role">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="roleTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="active" Type="System.Char" DbType="Char(1)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Users" Member="Users">
+    <Type Name="User">
+      <Column Name="id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="uname" Type="System.String" DbType="VarChar(125)" CanBeNull="true" />
+      <Column Name="password" Type="System.String" DbType="VarChar(125)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="surname" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="idNumber" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="roleid" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="active" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="email" Type="System.String" DbType="VarChar(125)" CanBeNull="true" />
+      <Column Name="cellNumber" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="dateCaptured" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="lastLogOn" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="address" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_DisplayAGYWInfo" Member="vw_DisplayAGYWInfos">
+    <Type Name="vw_DisplayAGYWInfo">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IDorPassport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FingerCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="GPSCoordination" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="strPath" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="UIdentifier" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="dateofbirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contactNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserRegistration" Member="UserRegistrations">
+    <Type Name="UserRegistration">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IDorPassport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FingerCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="GPSCoordination" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="strPath" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="UIdentifier" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="dateofbirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contactNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qualityAssured" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QualityAssured" Member="QualityAssureds">
+    <Type Name="QualityAssured">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IDorPassport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FingerCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="GPSCoordination" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="strPath" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="UIdentifier" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="dateofbirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contactNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="qualityAssured" Member="qualityAssured1" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.NotQualityAssured" Member="NotQualityAssureds">
+    <Type Name="NotQualityAssured">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Surname" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="IDorPassport" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="Age" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="FingerCode" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+      <Column Name="qualityAssured" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="contactNumber" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="dateofbirth" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UIdentifier" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="strPath" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="region" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GPSCoordination" Type="System.String" DbType="VarChar(255)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

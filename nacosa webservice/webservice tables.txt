@@ -1,0 +1,69 @@
+
+Create table UserRegistration(ID int IDENTITY(1,1) PRIMARY KEY,
+			Name varchar(255),
+			Surname	varchar(255),
+			IDorPassport varchar(255),
+			Age int,
+			Address varchar(255),
+			FingerCode varchar(255),
+			GPSCoordination	varchar(255));
+
+
+CREATE table Assessment (ID int IDENTITY(1,1) PRIMARY KEY,
+			LiveWithParents varchar(255),
+			Schooling varchar(255),
+			CompletedSchool varchar(255),
+			HighestGrade varchar(255),
+			Children varchar(255),
+			HowManyChildren	int(255),
+			MaritalStatus varchar(255))
+
+CREATE table Journey(ID int IDENTITY(1,1) PRIMARY KEY,
+			HIVTesting varchar(255),
+			HIVSelfScreening varchar(255),
+			CondomsSTIScreening varchar(255),
+			PregnancyTesting varchar(255),
+			EmergencyContraception varchar(255),
+			VendingMachines varchar(255),
+			PeerEducation varchar(255),
+			ComprehensiveSexualityEducation varchar(255),
+			IndividualAndGroupSupport varchar(255),
+			PrepDemandCreation varchar(255),
+			SRHKnowledge varchar(255),
+			MentalHealthSupport varchar(255),
+			SupportAccessSocialGrants varchar(255),
+			DignityPacks varchar(255),
+			AcademicSupport varchar(255),
+			ReturnToSchoolSupport varchar(255),
+			ECDVouchers  varchar(255),
+			EconomicStrengthening varchar(255),
+			WholeSchoolDevelopment varchar(255),
+			MenDialoguesGenderNorms varchar(255),
+			YouthLeadership varchar(255))
+
+
+(string Name ,string Surname,string IDorPassport,int Age,string Address,string FingerCode,string GPSCoordination)
+
+(Name,Surname,IDorPassport,Age,Address,FingerCode,GPSCoordination)	
+
+
+string LiveWithParents,string Schooling,string CompletedSchool,string HighestGrade,string Children,int HowManyChildren,string MaritalStatus
+
+
+LiveWithParents,Schooling,CompletedSchool,HighestGrade,Children,HowManyChildren,MaritalStatus
+
+
+M@dscientist135
+
+
+
+string HIVTesting,string HIVSelfScreening,string CondomsSTIScreening,string PregnancyTesting,string EmergencyContraception,string VendingMachines,string PeerEducation,string ComprehensiveSexualityEducation,string IndividualAndGroupSupport,string PrepDemandCreation,string SRHKnowledge,string MentalHealthSupport,string SupportAccessSocialGrants,string	DignityPacks,string AcademicSupport,string ReturnToSchoolSupport,string	ECDVouchers,string EconomicStrengthening,string WholeSchoolDevelopment,string	MenDialoguesGenderNorms,string YouthLeadership 
+
+HIVTesting,HIVSelfScreening,CondomsSTIScreening,PregnancyTesting,EmergencyContraception,VendingMachines,PeerEducation,ComprehensiveSexualityEducation,IndividualAndGroupSupport,PrepDemandCreation,SRHKnowledge,MentalHealthSupport,SupportAccessSocialGrants,DignityPacks,AcademicSupport,ReturnToSchoolSupport,ECDVouchers,EconomicStrengthening,WholeSchoolDevelopment,MenDialoguesGenderNorms,YouthLeadership 
+
+
+
+
+	
+
+	

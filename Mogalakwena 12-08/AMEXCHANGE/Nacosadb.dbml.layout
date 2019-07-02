@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="Nacosadb">
+  <DataContextMoniker Name="/NacosadbDataContext" />
+  <nestedChildShapes>
+    <classShape Id="7b0e10e7-2ae3-471b-9fc1-30513968766f" absoluteBounds="1.125, 1, 2, 1.0961531575520833">
+      <DataClassMoniker Name="/NacosadbDataContext/Province" />
+      <nestedChildShapes>
+        <elementListCompartment Id="863a63f5-55d5-4ae4-b3c9-9b16024bee08" absoluteBounds="1.1400000000000001, 1.46, 1.9700000000000002, 0.53615315755208326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="309c813f-058e-49bc-98f7-3f00c46cd50a" absoluteBounds="2.875, 2.75, 2, 1.26050048828125">
+      <DataClassMoniker Name="/NacosadbDataContext/Region" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3b96dbd6-1334-4314-9eb0-3913f94b6429" absoluteBounds="2.89, 3.21, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.125 : 2.09615315755208); (2.125 : 2.8975); (2.6725 : 2.8975); (2.6725 : 3.1874995); (2.875 : 3.1874995)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/NacosadbDataContext/Province/Province_Region" />
+      <nodes>
+        <classShapeMoniker Id="7b0e10e7-2ae3-471b-9fc1-30513968766f" />
+        <classShapeMoniker Id="309c813f-058e-49bc-98f7-3f00c46cd50a" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="9aad833b-51ec-4c83-9d95-9c45b3aa2871" isExpanded="false" absoluteBounds="4.5, 2, 2, 0.45">
+      <DataClassMoniker Name="/NacosadbDataContext/vw_DisplayAGYWInfo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab017c68-872e-4b67-93f6-07ef3b2f5f9e" absoluteBounds="4.515, 2.46, 1.9700000000000002, 6.2883097330729161" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="29eb5c8e-d994-4186-9f46-40d4c5cbb4e7" absoluteBounds="5.375, 1, 2, 2.24658447265625">
+      <DataClassMoniker Name="/NacosadbDataContext/Assessment" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4ab5bfb-db74-41ad-b187-32d2e63df3c3" absoluteBounds="5.39, 1.46, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a7360486-54bd-47b6-bcb8-44bbc6032adc" absoluteBounds="2.375, 0.5, 2, 2.0822371419270831">
+      <DataClassMoniker Name="/NacosadbDataContext/admin" />
+      <nestedChildShapes>
+        <elementListCompartment Id="88b60c53-03e6-42a3-8a6e-20c7ae486083" absoluteBounds="2.39, 0.96, 1.9700000000000002, 1.5222371419270833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="684d1e29-bada-4e83-95e2-32cf72215bf9" absoluteBounds="1.125, 3.625, 2, 4.5474471028645826">
+      <DataClassMoniker Name="/NacosadbDataContext/Journey" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0e974ba4-82b3-4eff-aa87-c7a18dfc1537" absoluteBounds="1.1400000000000001, 4.085, 1.9700000000000002, 3.987447102864583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6ce2b321-8a12-48bf-8fb0-25d6c2d8b94a" absoluteBounds="0.625, 2.5, 2, 1.26050048828125">
+      <DataClassMoniker Name="/NacosadbDataContext/Region1" />
+      <nestedChildShapes>
+        <elementListCompartment Id="142d7648-5aa1-4068-9bff-2127219d8042" absoluteBounds="0.64, 2.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed07b6df-8efb-42ea-beb1-950536da35dc" absoluteBounds="0.5, 0.5, 2, 1.26050048828125">
+      <DataClassMoniker Name="/NacosadbDataContext/Role" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8578eb76-7f0e-4dcd-bfb9-09c2ff1842e9" absoluteBounds="0.515, 0.96, 1.9700000000000002, 0.70050048828125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="31c627aa-8ad8-4035-81db-d0b110c21bf9" absoluteBounds="4.125, 5.125, 2, 2.24658447265625">
+      <DataClassMoniker Name="/NacosadbDataContext/UserRegistration" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ebf5758b-363a-40e9-ae77-a379bc4db107" absoluteBounds="4.14, 5.585, 1.9700000000000002, 1.68658447265625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19ffe610-20e0-4805-ada3-f6073b131d73" absoluteBounds="5.75, 3.875, 2, 3.0683211263020831">
+      <DataClassMoniker Name="/NacosadbDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4670ffaf-3aa2-46fb-94e7-97e5438119b9" absoluteBounds="5.765, 4.335, 1.9700000000000002, 2.508321126302083" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

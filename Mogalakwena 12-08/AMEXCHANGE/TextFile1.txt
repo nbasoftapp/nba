@@ -1,0 +1,299 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="HouseholdInfo.aspx.cs" Inherits="Mogalakwena.HouseholdInfo" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Community Survey-Household</title>
+
+  
+    <!-- Bootstrap Core CSS -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="bower_components/metisMenu/dist/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+     <!-- Date picker -->
+      
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.11.2/themes/smoothness/jquery-ui.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="//code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+        <script>
+            $(function () {
+                $.noConflict();
+                $("#txtDOB").datepicker({
+                    dateFormat: 'yy-mm-dd',
+                    changeMonth: true,
+                    changeYear: true
+                });
+
+            });
+        </script>
+       
+        <!-- Date picker  ends here-->
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div id="wrapper">
+
+            <!-- Navigation -->
+            <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Community Survey</a>
+                </div>
+                <!-- /.navbar-header -->
+
+                <ul class="nav navbar-top-links navbar-right" style="float: right">
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                            <i class="fa fa-user fa-fw"></i><i class="fa fa-caret-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-user">
+                            <li><a href="#"><i class="fa fa-user fa-fw"></i>My Profile</a>
+                            </li>
+
+
+                            <li><a href="login.aspx"><i class="fa fa-sign-out fa-fw"></i>Logout</a>
+                            </li>
+                        </ul>
+                        <!-- /.dropdown-user -->
+                    </li>
+                    <!-- /.dropdown -->
+                </ul>
+                <!-- /.navbar-top-links -->
+
+                <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">
+                            <li class="sidebar-search">
+                                <div class="input-group custom-search-form">
+                                    <input type="text" class="form-control" placeholder="Search...">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="button">
+                                            <i class="fa fa-search"></i>
+                                        </button>
+                                    </span>
+                                </div>
+                                <!-- /input-group -->
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-files-o fa-fw"></i>Reports</a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-files-o fa-fw"></i>Households<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="HouseholdMember.aspx">New Household</a>
+                                    </li>
+                                    <li>
+                                        <a href="ListHouseholds.aspx">List of Household</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+
+
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+                <!-- /.navbar-static-side -->
+            </nav>
+
+            <div id="page-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h1 class="page-header">Household information</h1>
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                Demographic information
+                       
+                            </div>
+                            <div class="panel-body">
+                                <div class="row">
+                                    <div class="col-md-4">
+                                        <div>
+                                            <h4>General household information</h4>
+                                            <div class="form-group">
+                                                    <label><span style="color: #C36464;">* </span>Source of Water</label>
+                                                    <asp:DropDownList ID="ddlWater" runat="server" CssClass="form-control">
+                                                        <asp:ListItem Text="" Value=""></asp:ListItem>
+                                                        <asp:ListItem Text="Canals" Value="Canals"></asp:ListItem>
+                                                        <asp:ListItem Text="Hand-pumps" Value="Hand-pumps"></asp:ListItem>
+                                                        <asp:ListItem Text="Rain water" Value="Rain water"></asp:ListItem>
+                                                        <asp:ListItem Text="Rivers" Value="Rivers"></asp:ListItem>
+                                                        <asp:ListItem Text="Municipality Water" Value="Municipality Water"></asp:ListItem>
+                                                        <asp:ListItem Text="Other" Value="Other"></asp:ListItem>
+                                                    </asp:DropDownList>
+                                                </div>
+                                            
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Toilet facilities</label>
+                                                <input runat="server" id="txtToilet" class="form-control" />
+                                            </div>
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Source of Energy for cooking</label>
+                                                <asp:DropDownList ID="ddlCooking" runat="server" CssClass="form-control">
+                                                        <asp:ListItem Text="" Value=""></asp:ListItem>
+                                                        <asp:ListItem Text="Biomass Stove" Value="Biomass Stove"></asp:ListItem>
+                                                        <asp:ListItem Text="Electric Stove" Value="Electric Stove"></asp:ListItem>
+                                                        <asp:ListItem Text="Coal Stove" Value="Coal Stove"></asp:ListItem>
+                                                        <asp:ListItem Text="Paraffin Stove" Value="Paraffin Stove"></asp:ListItem>
+                                                        <asp:ListItem Text="Solar Stove" Value="Solar Stove"></asp:ListItem>
+                                                        <asp:ListItem Text="Traditional Biomass" Value="Traditional Biomass"></asp:ListItem>
+                                                        <asp:ListItem Text="Other" Value="Other"></asp:ListItem>
+                                                    </asp:DropDownList>
+                                            </div>
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Source of Energy for lighting</label>
+                                                <asp:DropDownList ID="ddlLight" runat="server" CssClass="form-control">
+                                                    <asp:ListItem Text="" Value=""></asp:ListItem>
+                                                    <asp:ListItem Text="Candles" Value="Candles"></asp:ListItem>
+                                                    <asp:ListItem Text="Electric lights" Value="Electric lights"></asp:ListItem>
+                                                    <asp:ListItem Text="Paraffin lights" Value="Paraffin lights"></asp:ListItem>
+                                                    <asp:ListItem Text="Solar lights" Value="Solar lights"></asp:ListItem>
+                                                    <asp:ListItem Text="Other" Value="Other"></asp:ListItem>
+                                                </asp:DropDownList>
+                                            </div>
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Source of Energy or heating</label>
+                                                <asp:DropDownList ID="ddlHeat" runat="server" CssClass="form-control">
+                                                    <asp:ListItem Text="" Value=""></asp:ListItem>
+                                                    <asp:ListItem Text="Indoor Fire Place" Value="Indoor Fire Place"></asp:ListItem>
+                                                    <asp:ListItem Text="Electric Heating System" Value="Electric Heating System"></asp:ListItem>
+                                                    <asp:ListItem Text="Paraffin Heating System" Value="Paraffin Heating System"></asp:ListItem>
+                                                    <asp:ListItem Text="Solar Heating System" Value="Solar Heating System"></asp:ListItem>
+                                                    <asp:ListItem Text="Other" Value="Other"></asp:ListItem>
+                                                </asp:DropDownList>
+                                            </div>
+                                          
+                                            <asp:ScriptManager runat="server" ID="scrptMngr1"></asp:ScriptManager>
+                                            <asp:UpdatePanel ID="UpdatePanel1" runat="server">
+
+                                                <ContentTemplate>
+                                                    
+                                                </ContentTemplate>
+                                            </asp:UpdatePanel>
+
+
+                                        </div>
+                                    </div>
+                                    <!-- /.col-md-4 (nested) -->
+
+                                    <div class="col-md-4">
+                                        <div>
+                                            <h4>Social issues</h4>
+                                                                                        
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>List social issues in your area</label>
+                                                <textarea class="form-control" rows="5" id="txtSocial" runat="server"></textarea>
+                                                <i><p class="help-block">E.g. Theft, drug abuse, alcohol abuse, teenage pregnancy, etc</p></i>
+                                            </div>
+                                            <h4>Mine</h4>
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Advantages of having the mine in your community</label>
+                                                <textarea class="form-control" rows="5" id="txtAdvantage" runat="server"></textarea>
+                                                
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                    <!-- /.col-md-4 (nested) -->
+                                    <div class="col-md-4">
+                                        <div>
+                                           <h4>.</h4>
+
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Disadvantages of having the mine in your community</label>
+                                                <textarea class="form-control" rows="5" id="txtDisadvantages" runat="server"></textarea>
+
+                                            </div>
+
+                                            <div class="form-group">
+                                                <label><span style="color: #C36464;">* </span>Opinion about the mine</label>
+                                                <textarea class="form-control" rows="5" id="txtOpinion" runat="server"></textarea>
+
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- /.col-md-4 (nested) -->
+
+                                    <div class="col-lg-12">
+
+                                        <div>
+                                            <fieldset>
+                                                  <hr />                                              
+                                             <asp:Button ID="btnSave" runat="server" OnClick="btnSave_Click" class="btn btn-success" Text="Save"></asp:Button>
+                                                <asp:Button ID="btnClear" OnClick="btnClear_Click" runat="server" class="btn btn-success" Text="Clear"></asp:Button>
+                                                <hr />
+                                                <span style="color: #C36464;">* Required fields</span>
+                                            </fieldset>
+                                        </div>
+
+
+                                    </div>
+                                    <!-- /.col-lg-6 (nested) -->
+                                </div>
+                                <!-- /.row (nested) -->
+                            </div>
+                            <!-- /.panel-body -->
+                        </div>
+                        <!-- /.panel -->
+                    </div>
+                    <!-- /.col-lg-12 -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /#page-wrapper -->
+
+        </div>
+        <!-- /#wrapper -->
+
+        <!-- jQuery -->
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+
+        <!-- Bootstrap Core JavaScript -->
+        <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+        <!-- Metis Menu Plugin JavaScript -->
+        <script src="bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+        <!-- Custom Theme JavaScript -->
+        <script src="dist/js/sb-admin-2.js"></script>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,30 @@
+E:\Mining project\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+E:\Mining project\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+E:\Mining project\AMEXCHANGE\AMEXCHANGE\obj\Debug\ResolveAssemblyReference.cache
+E:\Mining project\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+E:\Mining project\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.csprojResolveAssemblyReference.cache
+E:\Justice\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+E:\Justice\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+E:\Justice\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.csprojResolveAssemblyReference.cache
+E:\Justice\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+E:\Justice\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\justi_000\Documents\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Documents\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Documents\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Documents\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\justi_000\Documents\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\Amexchange 26-03-2015\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\Amexchange 26-03-2015\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\Amexchange 26-03-2015\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Desktop\Amexchange 26-03-2015\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\Amexchange 26-03-2015\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\justi_000\Pictures\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Pictures\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Pictures\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Pictures\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\justi_000\Pictures\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb

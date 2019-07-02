@@ -1,0 +1,64 @@
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\Koketso\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+C:\Users\Koketso\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\Koketso\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\Koketso\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\Koketso\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+E:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+E:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+E:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\Justice\Documents\Visual Studio 2012\Projects\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\Justice\Documents\Visual Studio 2012\Projects\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\Justice\Documents\Visual Studio 2012\Projects\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\Justice\Documents\Visual Studio 2012\Projects\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\Justice\Documents\Visual Studio 2012\Projects\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Calendar2_Net.dll
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Grid_NET.dll
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Interface.dll
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Calendar2_Net.xml
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Grid_NET.xml
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Interface.xml
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+C:\Users\Koketso\Desktop\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Calendar2_Net.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Grid_NET.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\bin\obout_Interface.xml
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\Mogalakwena.csprojResolveAssemblyReference.cache
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+K:\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll.config
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\AMEXCHANGE.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\ASPGMaps.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\gmap.net.windowspresentation.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\GMaps.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\EntityFramework.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\Microsoft.AspNet.Membership.OpenAuth.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.AspNet.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\GMap.NET.Core.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.Consumer.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.Core.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\ASPGMaps.pdb
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\EntityFramework.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.AspNet.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.Consumer.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OAuth.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.Core.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\bin\DotNetOpenAuth.OpenId.xml
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.dll
+K:\NACOSA\Mogalakwena 12-08\AMEXCHANGE\obj\Debug\AMEXCHANGE.pdb

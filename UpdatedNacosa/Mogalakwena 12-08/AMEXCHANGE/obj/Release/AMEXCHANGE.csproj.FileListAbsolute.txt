@@ -1,0 +1,5 @@
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\bin\AMEXCHANGE.pdb
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\AMEXCHANGE.csprojResolveAssemblyReference.cache
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\AMEXCHANGE.dll
+C:\Users\justi_000\Desktop\AMEXCHANGE\AMEXCHANGE\obj\Release\AMEXCHANGE.pdb
